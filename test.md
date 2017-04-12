@@ -1,57 +1,57 @@
 1.	Using the OSI model, which layer has the responsibility of making sure that the packet gets where it is supposed to go?
-
+TCP
 2.	What is the subnet mask, network address and broadcast address for the following address: 123.65.47.62/22?
-
+subnet 255.255.252.0
 3.	What command is used to show all open ports and/or socket connections on a machine?
 
 4.	What is NAT? What is it used for?
-
+NETWORK ADRESS TRANSLATION for map many private ip to one public and vice versa
 5.	Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
-
+10.0.0.0/8
 6.	What is a packet filter and how does it work?
 
 7.	What is a proxy and how does it work?
 
 8.	What is ARP and what is it used for?
-
+Adress resolution protocol , to map port with network
 9.	What is the difference between TCP and UDP?
-
+TCP - 4 model osi, UDP - 3rd, TCP guarantied packet delivering, UDP is not
 10.	What command is used to show the route table for a machine?
-
+route -n
 11. Explain asynchronous routing?
 
 12.	What is the purpose of a default gateway?
-
+TO send packet with doesnt have destination in a route table
 13.	A TCP connection on a network can be uniquely defined by 4 things.  What are those things?
-
+ip,port,mask,mac adress
 14.	When a client running a web browser connects to a web server, what is the source port of the connection?
-
+router's ip
 15.	What is the destination port of the connection?
-
+ip adress of a web server
 16.	What is SMTP?
-
+simple mail transfer protocol
 16.	What is an SMTP relay?
-
+This is a mail server wich forwards email to another smtp server, like a proxy server
 16.	Give the basic scenario of how a mail message is delivered via SMTP
 
 17.	What function does DNS play on a network?
-
+Преобразует имена веб сайтов в айпи адреса
 17.	What is an A record?
-
+ipv4 адресс сервера
 17.	What is an NS record?
-
+name server adress
 17.	What is an MX record?
-
+mail server adress
 17.	What is a PTR record?
-
+обратная запись
 17.	What is a DNS forwarder?
 
 17.	What command is used to lookup DNS records?
-
+dig
 17.	What is meant by "Reverse Lookup"?
 
 18.	What is LDAP and what is it used for?
-
+служба каталогов под линукс, для управления пользователями и их правами
 19.	What is a DN in LDAP?
 
 20.	What is SSH?
